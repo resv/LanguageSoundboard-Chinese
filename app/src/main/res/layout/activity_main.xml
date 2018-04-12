@@ -25,7 +25,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/hello"/>
+            android:id="@+id/hello"
+            android:background="#7f7fff"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="goodbye&#10;&#10;zài jiàn"
@@ -37,7 +39,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/goodbye" />
+            android:id="@+id/goodbye"
+            android:background="#FF7F7FFF"
+            android:textColor="#ffffff" />
 
 
         <Button
@@ -50,7 +54,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/thanks" />
+            android:id="@+id/thanks"
+            android:background="#ff7d7d" />
 
         <Button
             android:text="i get it&#10;&#10;wǒ dǒng le "
@@ -62,7 +67,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/igetit" />
+            android:id="@+id/igetit"
+            android:background="#FFFF00DD" />
 
         <Button
             android:text="how much&#10;is it?&#10;&#10;duō shǎo qián"
@@ -74,7 +80,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/howmuchisit" />
+            android:id="@+id/howmuchisit"
+            android:background="#011fff"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="happy birthday!&#10;&#10;shēngrì kuàilè"
@@ -86,7 +94,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/happybirthday" />
+            android:id="@+id/happybirthday"
+            android:background="#ff0000" />
 
 
         <!--MIDDLE COLUMN MIDDLE COLUMN MIDDLE COLUMN MIDDLE COLUMN MIDDLE COLUMN MIDDLE COLUMN-->
@@ -101,7 +110,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/goodevening" />
+            android:id="@+id/goodevening"
+            android:background="#fffb1c" />
 
 
         <Button
@@ -114,7 +124,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/seeyoulater" />
+            android:id="@+id/seeyoulater"
+            android:background="#FFFFFB1C" />
 
         <Button
             android:text="thanks&#10;a lot&#10;&#10;fēicháng gǎn xiè"
@@ -126,7 +137,8 @@
             android:layout_rowWeight="1"
             android:textSize="7sp"
             android:onClick="buttonTapped"
-            android:id="@+id/thanksalot" />
+            android:id="@+id/thanksalot"
+            android:background="#FFFF7D7D" />
 
         <Button
             android:text="I don't&#10;understand&#10;&#10;wǒ bù dǒng"
@@ -138,7 +150,8 @@
             android:layout_rowWeight="1"
             android:textSize="7sp"
             android:onClick="buttonTapped"
-            android:id="@+id/idontunderstand" />
+            android:id="@+id/idontunderstand"
+            android:background="#ff00dd" />
 
         <Button
             android:text="sorry&#10;&#10;duì bu qǐ"
@@ -150,7 +163,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/sorry" />
+            android:id="@+id/sorry"
+            android:background="#FF011FFF"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="happy holiday!&#10;&#10;jiérì kuàilè"
@@ -162,7 +177,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/happyholiday" />
+            android:id="@+id/happyholiday"
+            android:background="#FFFF0000" />
 
         <!--RIGHT COLUMN RIGHT COLUMN RIGHT COLUMN RIGHT COLUMN RIGHT COLUMN RIGHT COLUMN-->
         <Button
@@ -175,7 +191,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/yes" />
+            android:id="@+id/yes"
+            android:background="#01986f"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="no&#10;&#10;bú shì"
@@ -187,7 +205,9 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/no" />
+            android:id="@+id/no"
+            android:background="#FF01986F"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="don't mention it&#10;&#10;méi guàn xì "
@@ -199,7 +219,8 @@
             android:layout_rowWeight="1"
             android:textSize="6sp"
             android:onClick="buttonTapped"
-            android:id="@+id/dontmentionit" />
+            android:id="@+id/dontmentionit"
+            android:background="#FFFF7D7D" />
 
         <Button
             android:text="i don't know&#10;&#10;wǒ bù zhīdào "
@@ -211,7 +232,8 @@
             android:layout_rowWeight="1"
             android:textSize="8sp"
             android:onClick="buttonTapped"
-            android:id="@+id/idontknow" />
+            android:id="@+id/idontknow"
+            android:background="#FFFF00DD" />
 
         <Button
             android:text="excuse me&#10;where are&#10;the toilets?&#10;&#10;qǐngwèn xǐshǒujiān&#10;zài nǎli"
@@ -223,7 +245,10 @@
             android:layout_rowWeight="1"
             android:textSize="6sp"
             android:onClick="buttonTapped"
-            android:id="@+id/excusemewherearethetoilets" />
+            android:id="@+id/excusemewherearethetoilets"
+            android:background="#FF011FFF"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#ffffff" />
 
         <Button
             android:text="happy new year!&#10;&#10;xīnnián hǎo"
@@ -235,7 +260,8 @@
             android:layout_rowWeight="1"
             android:textSize="7sp"
             android:onClick="buttonTapped"
-            android:id="@+id/happynewyear" />
+            android:id="@+id/happynewyear"
+            android:background="#FFFF0000" />
 
     </GridLayout>
 </RelativeLayout>
