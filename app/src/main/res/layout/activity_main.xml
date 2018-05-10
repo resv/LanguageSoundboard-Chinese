@@ -27,7 +27,7 @@
             android:onClick="buttonTapped"
             android:id="@+id/hello"
             android:background="#7f7fff"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
 
         <Button
             android:text="goodbye&#10;&#10;zài jiàn"
